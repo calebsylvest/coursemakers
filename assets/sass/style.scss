@@ -13,16 +13,16 @@
 // Change these variables if you like
 
 // set the bg color of page; tagline and button are based on bg color
-$primary-color: #ffca00; // yellow
+$primary-color: #45c28a; 
 
 // be sure to load whatever font files you want to use, in this case we are loading Lato from Google Web Fonts
 $sans-font: Lato, Tahoma, sans-serif; 
 
 // font color for page  and anchor links
-$anchor-color: #f1592a; // red
+$anchor-color: white;
 
 // email signup button
-$button-color: $anchor-color;
+$button-color: darken($primary-color,20%);
 
 //
 //
