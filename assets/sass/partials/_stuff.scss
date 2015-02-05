@@ -1,0 +1,92 @@
+body {font: 13px Lato, Tahoma, sans-serif;}
+
+/* We like off-black for text. */
+body, select, input, textarea {color: #818181;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+/* Custom text-selection colors (remove any text shadows */
+::-moz-selection{background: #b3d143; color: #fff; text-shadow: none;}
+::selection {background: #b3d143; color: #fff; text-shadow: none;} 
+
+/*  j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { color:#f4f2ca; }
+textarea:-moz-placeholder { color:#f4f2ca; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+body {
+  background-color: $body-bg;
+  //color: #efaa9d;
+  text-align: center;
+  font-family: Lato, Tahoma, sans-serif;
+}
+
+.wrapper {
+  
+}
+
+a {
+  color: #f4f2ca;
+  text-decoration: none;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+}
+a:hover {
+  color: #f4f2ca;
+  opacity: .6;
+}
+
+p a {
+  border-bottom: 1px solid rgba(255,255,255, .2);
+  padding: .2em 0;
+}
+
+
+
+.site-footer {
+  margin-top: 8em;
+}
+
+.copyright {
+  opacity: .5;
+}
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 480px) {
+  
+  .middle {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 3.5em;
+  }
+
+  /*.site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }*/
+    
+}

@@ -1,0 +1,201 @@
+/* Beanstalk Felxible Grid 
+ *
+ * A flexible, responsive grid system built with style using Sass.
+ *
+ * Made by Caleb Sylvest
+ * www.calebsylvest.com
+ *
+ */
+
+$row-width: 960px !default;
+$column-gutter: 0.9375em !default;
+$total-columns: 12 !default;
+$show-grid: false !default;
+
+.row {
+  width: 100%;
+  max-width: $row-width;
+  margin: 0 auto;
+  
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  
+  // nested row
+  .row {
+    width: auto;
+    margin-left: -($column-gutter);
+    margin-right: -($column-gutter);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  &.collapse > .column,
+  &.collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  &.collapse-outer > .column,
+  &.collapse-outer > .columns {  
+    
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  padding-left: $column-gutter;
+  padding-right: $column-gutter;
+  position: relative;
+}
+
+//
+// Column-widths created dynamically
+//
+
+// generate small grid classes
+@for $i from 1 through $total-columns {
+  .small-#{$i} {
+    width: ((100 / $total-columns) * $i) * 1%;
+  }
+}
+
+// generate small gird offset options
+@for $i from 1 through $total-columns {
+  .small-offset-#{$i} {
+    margin-left: ((100 / $total-columns) * $i) * 1%;
+  }
+}
+
+// generate small push grid options
+@for $i from 1 through $total-columns {
+  .small-push-#{$i} {
+    position: relative;
+    left: ((100 / $total-columns) * $i) * 1%;
+    right: auto;
+  }
+}
+
+// generate small pull grid options
+@for $i from 1 through $total-columns {
+  .small-pull-#{$i} {
+    position: relative;
+    right: ((100 / $total-columns) * $i) * 1%;
+    left: auto;
+  }
+}
+
+@media screen and (min-width: $small-screen) {
+  
+  // generate flexible grid above mobile  
+  @for $i from 1 through $total-columns {
+    .medium-#{$i} {
+      width: ((100 / $total-columns) * $i) * 1%;
+    }
+  }
+
+  // generate medium gird offset options
+  @for $i from 1 through $total-columns {
+    .medium-offset-#{$i} {
+      margin-left: ((100 / $total-columns) * $i) * 1%;
+    }
+  }
+  
+  // generate medium push grid options
+  @for $i from 1 through $total-columns {
+    .medium-push-#{$i} {
+      position: relative;
+      left: ((100 / $total-columns) * $i) * 1%;
+      right: auto;
+    }
+  }
+  
+  // generate medium pull grid options
+  @for $i from 1 through $total-columns {
+    .medium-pull-#{$i} {
+      position: relative;
+      right: ((100 / $total-columns) * $i) * 1%;
+      left: auto;
+    }
+  }
+
+  .medium-reset-order {
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    float: left; 
+  }
+
+}
+
+@media screen and (min-width: $medium-screen) {
+  
+  // generate flexible grid above mobile  
+  @for $i from 1 through $total-columns {
+    .large-#{$i} {
+      width: ((100 / $total-columns) * $i) * 1%;
+    }
+  }
+
+  // generate large gird offset options
+  @for $i from 1 through $total-columns {
+    .large-offset-#{$i} {
+      margin-left: ((100 / $total-columns) * $i) * 1%;
+    }
+  }
+  
+  // generate large push grid options
+  @for $i from 1 through $total-columns {
+    .large-push-#{$i} {
+      position: relative;
+      left: ((100 / $total-columns) * $i) * 1%;
+      right: auto;
+    }
+  }
+  
+  // generate large pull grid options
+  @for $i from 1 through $total-columns {
+    .large-pull-#{$i} {
+      position: relative;
+      right: ((100 / $total-columns) * $i) * 1%;
+      left: auto;
+    }
+  }
+
+  .large-reset-order {
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    float: left; 
+  }
+
+}
+
+// if $show-grid is set to true all grid columns will 
+// be visible, just for test or example purposes
+.column,
+.columns {
+
+  @if $show-grid == true {
+  background-color: rgba(246,191,222,.6);
+  border: 1px solid red;
+  border-top: none;
+  border-bottom: none;
+  }
+  
+} 

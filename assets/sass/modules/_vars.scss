@@ -1,0 +1,177 @@
+/* 
+  *
+  * Variables 
+  *
+  */
+
+
+// The default font-size is set to 100% of the browser style sheet (usually 16px)
+// for compatibility with browser-based text zoom or user-set defaults.
+$mobile-base-font-size: 87.5% !default;
+$base-font-size: 100% !default;
+
+// $base-line-height is the global standard for line-height
+$base-line-height: 1.5;
+
+// $base-letter-spacing should be used for all instances where letter-spacing is required
+$base-letter-spacing: .1em;
+
+
+// $Color
+// -------------------------------------//
+
+$red-color: #f05133;
+$yellow-color: #f4f2ca;
+$blue-color: #70cad1;
+
+$primary-color: $red-color;
+$secondary-color: #6dcff6; //blue color
+$neutral-color: #f9f7f1;
+
+$alert-color: #c60f13;
+$success-color: #5da423;
+
+$body-bg: #fbfbfb;
+
+
+// $BaseType
+// -------------------------------------//
+
+$serif-font: "Chaparral Pro", Georgia, sans-serif;
+$sans-font: Lato, Tahoma, sans-serif;
+
+// Body font styles
+
+$body-font-family: $sans-font;
+$body-font-color: #818181;
+$body-font-weight: normal;
+$body-font-style: normal;
+
+// Heading font styles
+
+$header-font-family: $sans-font;
+$header-font-weight: 500;
+$header-font-style: normal;
+$header-font-color: #444;
+$header-line-height: 1.5;
+$header-top-margin: .2em;
+$header-bottom-margin: .5em;
+$header-text-rendering: optimizeLegibility;
+
+// Heading font sizes
+
+$h1-font-size: 4em;
+$h2-font-size: 3em;
+$h3-font-size: 2.5em;
+$h4-font-size: 2em;
+$h5-font-size: 1.5em;
+$h6-font-size: 1em;
+
+// Subheaders
+
+$subheader-line-height: $header-line-height;
+$subheader-font-color: lighten($header-font-color, 10%);
+$subheader-font-weight: normal;
+$subheader-top-margin: .2em;
+$subheader-bottom-margin: .5em;
+
+
+// $Breakpoints
+// -------------------------------------//
+
+$small-screen: 600px;
+$medium-screen: 768px;
+$large-screen: 960px;
+
+$screen: "only screen";
+$small: "only screen and (min-width: #{$small-screen})";
+$medium: "only screen and (min-width: #{$medium-screen})";
+$large: "only screen and (min-width: #{$large-screen})";
+$landscape: "only screen and (orientation: landscape)";
+$portrait: "only screen and (orientation: portrait)";
+
+
+// $Beanstalk Felxible Grid
+// -------------------------------------//
+
+$row-width: 1200px;
+$column-gutter: 0.9375em;
+$total-columns: 12;
+$show-grid: false;
+
+// $Border Radius
+// -------------------------------------//
+
+// Make sure border radius matches unless we want it different.
+
+$global-radius: 6px;
+$global-rounded: 1000px;
+
+// $Small Print
+// -------------------------------------//
+
+$small-font-size: 60%;
+$small-font-color: lighten($header-font-color, 10%);
+
+// $Anchors
+// -------------------------------------//
+
+$anchor-text-decoration: none;
+$anchor-font-color: $primary-color;
+$anchor-font-color-hover: darken($primary-color, 10%);
+
+// $Paragraphs
+// -------------------------------------//
+
+$paragraph-margin-bottom: 1em;
+$paragraph-aside-font-size: .8em;
+$paragraph-aside-line-height: 1.35;
+$paragraph-aside-font-style: italic;
+$paragraph-text-rendering: optimizeLegibility;
+
+// <hr> element
+// -------------------------------------//
+
+$hr-border-width: 3px;
+$hr-border-style: solid;
+$hr-border-color: #e6e7e8;
+$hr-margin: 2em 0;
+
+// <code> tags
+// -------------------------------------//
+
+$code-color: $body-font-color;
+$code-font-family: Consolas, 'Liberation Mono', Courier, monospace;
+$code-font-weight: normal;
+$code-bg-color: #e3e3e3;
+$code-padding: .2em;
+$code-radius: 3px;
+
+// Lists
+// -------------------------------------//
+
+$list-style-position: outside;
+$list-side-margin: 1em;
+$list-nested-margin: 1em;
+$definition-list-header-weight: bold;
+$definition-list-header-margin-bottom: .3em;
+$definition-list-margin-bottom: 1em;
+
+// Blockquotes
+// -------------------------------------//
+
+$blockquote-font-size: 1.4em;
+$blockquote-font-color: lighten($body-font-color, 20%);
+$blockquote-bg-color: #fbfbfb;
+$blockquote-padding: 1em;
+$blockquote-margin: 0 0 1em 0;
+$blockquote-border: 6px solid $primary-color;
+$blockquote-cite-font-size: 13px;
+$blockquote-cite-font-color: $header-font-color;
+$blockquote-cite-link-color: $blockquote-cite-font-color;
+
+// Acronym
+// -------------------------------------//
+
+$acronym-underline: 1px dotted #ddd !important; // for some silly reason this needs to be !important
+                                                // or else it can't overwrite the _normalize style, weird

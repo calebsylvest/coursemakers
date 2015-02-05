@@ -1,32 +1,21 @@
 /* Import Partials!
 -------------------------------------------------------------------------------*/
 
-// import compass utilities
 @import "compass/css3";
-@import "compass/utilities/color/contrast";
 
 // browser reset
-@import "_normalize";
+@import "partials/_normalize";
 
-//
-//
-// Change these variables if you like
+// modules
+@import "modules/_vars";
 
-// set the bg color of page; tagline and button are based on bg color
-$primary-color: #45c28a; 
+//structure
+@import "vendor/_grid";
+@import "partials/_global";
 
-// be sure to load whatever font files you want to use, in this case we are loading Lato from Google Web Fonts
-$sans-font: Lato, Tahoma, sans-serif; 
+//@import "partials/_stuff";
+@import "partials/_type";
+@import "partials/_hero";
+@import "partials/_sections";
 
-// font color for page  and anchor links
-$anchor-color: white;
-
-// email signup button
-$button-color: darken($primary-color,20%);
-
-//
-//
-//
-
-@import "_global";
-@import "_callout";
+@import "vendor/_animate";
