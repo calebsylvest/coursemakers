@@ -1,4 +1,4 @@
-Helix
+CourseMakers
 =====
 
-The extended Helix marketing site.
+CourseMakers basic site
