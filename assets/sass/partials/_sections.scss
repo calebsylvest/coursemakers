@@ -4,24 +4,21 @@
   *
   */
 
- body {
-	background-color: $body-bg;
-}
-
 #sign-up {
 	background-color: $primary-color;	
 }
 
+// Section Container
 .feature-section {
-	margin: 8em 0;
+	margin: 5em 0;
 
-	.feature-content {
-		margin-bottom: 1em;
+	@media screen and (min-width: $small-screen) {
+		margin: 8em 0;
 	}
 }
 
 .section-title {
-	color: $red-color;
+	color: $primary-color;
 	text-align: center;
 	font-size: 2.4em;
 }
@@ -34,8 +31,9 @@
 	max-width: 27em;
 }
 
+// Global Section Icon
 .section-icon {
-	width: 40px;
+	width: 3.5em;
 	margin: 0 auto;
 	display: block;
 }
@@ -50,100 +48,65 @@
 	@include transform(translateX(-50%));
 }
 
+
+
+// Small group inside Feature Section
+.feature-content {
+	margin-bottom: 1em;
+	text-align: center;
+
+	.feature-icon {
+		//max-width: 4em;
+		max-height: 3em;
+	}
+}
+
 .small-title {
 	color: $body-font-color;
-	font-size: 1em;
+	font-size: 1.2em;
 	font-weight: 900;
 
 	& + p {
 		font-size: .9em;
+		color: $body-font-color-alt;
+		max-width: 20em;
+		margin: 0 auto;
 	}
 }
 
-// Simple Smart Solution section
-#simple-smart-solution {
-	background-color: #f5f5f2;
-	margin-bottom: -2em;
-}
 
-.content-card {
-	background-color: #fff;
-	margin: 0 auto;
-	padding: 0 2em 3em;
-	max-width: 650px;
-	position: relative;
-	top: -2em;
-
-	@media screen and (min-width: $small-screen) {
-    		padding: 0 3em 3em;
-    		width: 80%;
-  	}
-
-	@media screen and (min-width: $medium-screen) {
-    		padding: 0 5em 3em;
-  	}
-
-	.section-title {
-		margin-bottom: 2em;
-	}
-}
-
-.content-card-group {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-
-	li {
-		//margin-bottom: 2.5em;
-		overflow: hidden;
-		
-		// reverse order of icon and text
-		&:nth-child(2) .big-icon {
-			float: right;
-			margin: 0 0 2.5em 2em;
-
-			@media screen and (min-width: $small-screen) {
-    				margin-right: 0 0 2.5em 4em;
-  			}
-		}
-		
-		// target icon. bump up size and center target
-		&:nth-child(3) img {
-			width: 59px;
-			left: 55%;
-		}
-	}
-}
-
-.big-icon {
-	background-color: #70cad1;
-	width: 8em;
-	height: 8em;
-	display: block;
-	float: left;
-	margin-right: 2em;
-	margin-bottom: 2.5em;
-	position: relative;
-	@include border-radius(999px);
-
-	@media screen and (min-width: $small-screen) {
-    		margin-right: 4em;
-  	}
-
-	img {
-		width: 45px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		@include transform(translateX(-50%) translateY(-50%));
-	}
-}
 
 #sign-up {
 	padding: 4em 0;
 	text-align: center;
 }
 
+
+
+
+.stack-section {
+
+	.stack-feature {
+
+		img {
+			//float: left;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Footer
 .site-footer {
 	background-color: #d8492e;
 	overflow: hidden;
@@ -196,200 +159,3 @@
 
 }
 
-.example-editor {
-	text-align: center;
-	margin: 9em 0 3em;
-	position: relative;
-
-	p {
-		@extend .callout;
-		margin-top: 1em;
-	}
-
-	.example-highlight {
-		background-color: $blue-color;
-		position: relative;
-		display: inline;
-
-		&::-moz-selection{background-color: transparent;  color: #555; text-shadow: none;}
-		&::selection {background-color: transparent; color: #555; text-shadow: none;} 
-	}
-}
-
-.tooltip-tail {
-	display: block;
-	width: 20px;
-	height: 20px;
-	background-color: aqua;
-}
-
-.example-tooltip {
-	width: 150px;
-	height: 50px;
-	background-color: #363636;
-	color: #898989;
-	display: block;
-	position: absolute;
-	top: -2.9em;
-	left: 50%;
-	overflow: hidden;
-	z-index: 1;
-	@include transform(translateX(-50%));
-	@include border-radius(6px);
-
-	&::after {
-		display: block;
-	width: 20px;
-	height: 20px;
-	background-color: aqua;
-	}
-
-	.tooltip-button {
-		width: 50px;
-		height: 50px;
-		//display: inline-block;
-		text-indent: -9999px;
-		float: left;
-		cursor: pointer;
-
-		&:hover {
-			background-color: $blue-color;
-
-			img {
-				opacity: .8;
-			}
-		}
-
-		&.active {
-			background-color: $blue-color;
-
-			img {
-				opacity: 1;
-			}
-		}
-
-		img {
-			display: block;
-			width: 23px;
-			margin: 0 auto;
-			position: relative;
-			top: -13px;
-			opacity: .5;
-		}
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-.example-tooltip-2 {
-	width: 150px;
-	height: 50px;
-	color: #898989;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	//overflow: hidden;
-	z-index: 1;
-	//@include border-radius(6px);
-
-	&::after {
-		display: block;
-		width: 20px;
-		height: 20px;
-		background-color: aqua;
-	}
-
-	.tooltip-button {
-		width: 50px;
-		height: 50px;
-		//display: inline-block;
-		text-indent: -9999px;
-		float: left;
-		cursor: pointer;
-		background-color: #363636;
-
-		&.bold-button {
-			@include border-radius(6px 0 0 6px);
-		}
-		&.underline-button {
-			@include border-radius(0 6px 6px 0);
-		}
-
-		&:hover {
-			//background-color: $blue-color;
-
-			img {
-				opacity: .8;
-			}
-		}
-
-		&.active {
-			background-color: $blue-color;
-
-			img {
-				opacity: 1;
-			}
-		}
-
-		img {
-			display: block;
-			width: 23px;
-			margin: 0 auto;
-			position: relative;
-			top: -2px;
-			opacity: .5;
-		}
-	}
-}
-
-.arrow-down-2 {
-	width: 0;
-	position: absolute;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #363636;
-	left: 50%;
-	bottom: -10px;
-	z-index: -5;
-	transform: translateX(-50%);
-}
-
-.bold {
-	font-weight: bold;
-}
-
-.italic {
-	font-style: italic;
-}
-
-.underline {
-	text-decoration: underline;
-}
-
-.try-it-callout {
-	max-width: 6em;
-	position: absolute;
-	left: 75%;
-	top: -2.3em;
-
-	@media screen and (min-width: $small-screen) {
-    		left: 65%;
-  	}
-
-  	@media screen and (min-width: $medium-screen) {
-    		left: 70%;
-  	}
-
-  	@media screen and (min-width: $large-screen) {
-    		left: 65%;
-  	}
-}

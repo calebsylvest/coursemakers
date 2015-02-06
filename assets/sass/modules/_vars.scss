@@ -20,18 +20,18 @@ $base-letter-spacing: .1em;
 // $Color
 // -------------------------------------//
 
-$red-color: #f05133;
+$orange-color: #ff8a33;
 $yellow-color: #f4f2ca;
-$blue-color: #70cad1;
+$light-green-color: #beecd9;
 
-$primary-color: $red-color;
-$secondary-color: #6dcff6; //blue color
+$primary-color: $orange-color;
+$secondary-color: $light-green-color;
 $neutral-color: #f9f7f1;
 
 $alert-color: #c60f13;
 $success-color: #5da423;
 
-$body-bg: #fbfbfb;
+$body-bg: #fff;
 
 
 // $BaseType
@@ -43,7 +43,8 @@ $sans-font: Lato, Tahoma, sans-serif;
 // Body font styles
 
 $body-font-family: $sans-font;
-$body-font-color: #818181;
+$body-font-color: #464646;
+$body-font-color-alt: #818181;
 $body-font-weight: normal;
 $body-font-style: normal;
 
@@ -52,7 +53,7 @@ $body-font-style: normal;
 $header-font-family: $sans-font;
 $header-font-weight: 500;
 $header-font-style: normal;
-$header-font-color: #444;
+$header-font-color: #2c4344;
 $header-line-height: 1.5;
 $header-top-margin: .2em;
 $header-bottom-margin: .5em;

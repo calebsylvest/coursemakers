@@ -5,35 +5,38 @@
   */
 
 #hero {
-	background-color: $primary-color;
+	//background-color: $primary-color;
 	text-align: center;
 	padding: 7em 0;
-}
-
-// helix logo img
-.logo {
-	width: 35px;
-	height: auto;
-	margin: 0 auto 1em;
 }
 
 .title {
 	font-size: 2.5em;
 	margin: .3em 0 .1em;
-	color: $yellow-color;
-
-	a {
-		color: $yellow-color;
-	}
+	color: $header-font-color;
 }
 
 .tagline {
 	font-size: 1.2em;
-	color: #efaa9d;
+	color: $primary-color;
 	margin: 0 auto 2em;
 	max-width: 25em;
 	width: 80%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Email form
 .email-signup-form {
@@ -133,14 +136,6 @@
 		top: 50%;
 		left: 50%;
 		transform: translateX(-50%) translateY(-50%);
-	}
-
-	.logo {
-		//margin-top: 0;
-	}
-
-	.title {
-		//font-size: 3.5em;
 	}
 		
 }

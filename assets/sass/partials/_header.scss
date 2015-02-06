@@ -1,0 +1,58 @@
+/*
+  * 
+  * Header
+  *
+  */
+
+// header container
+.site-header {
+	padding: 1em;
+	text-align: center;
+}
+
+.site-brand {
+
+	@media screen and (min-width: $small-screen) {
+		float: left;
+	}
+
+	.site-logo {
+		max-width: 4em;
+	}
+
+	.site-name {
+		font-size: 1em;
+		margin: .6em 0 1.5em;
+	}
+}
+
+// nav group
+.site-nav {
+	//float: right;
+
+	@media screen and (min-width: $small-screen) {
+		float: right;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			display: inline-block;
+
+			a {
+				font-size: .8em;
+				color: $header-font-color;
+				text-transform: uppercase;
+				letter-spacing: $base-letter-spacing;
+				margin: 0 1em;
+
+				&:hover {
+					color: $primary-color;
+				}
+			}
+		}
+	}
+}

@@ -7,17 +7,17 @@
 // We use this to do clear floats
 // use as a .class, @include, or @extend
 .clearfix {
-  *zoom:1;
-  &:before, &:after { content: " "; display: table; }
-  &:after { clear: both; }
+	*zoom:1;
+	&:before, &:after { content: " "; display: table; }
+	&:after { clear: both; }
 }
 
 // Set box-sizing globally to apply natural box sizing control
-  *,
-  *:before,
-  *:after {
-    @include box-sizing(border-box);
-  }
+*,
+*:before,
+*:after {
+	@include box-sizing(border-box);
+}
 
 // Override outline from normalize, we don't like it
 a:focus { outline: none; }
@@ -33,10 +33,10 @@ img { -ms-interpolation-mode: bicubic; }
 
 #map_canvas,
 .map_canvas {
-  img,
-  embed,
-  object { max-width: none !important;
-  }
+	img,
+	embed,
+	object { max-width: none !important;
+	}
 }
 
 // Miscellaneous useful HTML classes
@@ -56,8 +56,8 @@ img { -ms-interpolation-mode: bicubic; }
 
 // Get rid of gap under images by making them display: inline-block; by default
 img {
-  display: inline-block;
-  vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 //
@@ -69,3 +69,14 @@ textarea { height: auto; min-height: 50px; }
 
 // Make select elements 100% width by default
 select { width: 100%; }
+
+
+/* 
+  *
+  * Global Custom
+  *
+  */
+
+ body {
+	background-color: $body-bg;
+}
