@@ -15,62 +15,55 @@
 	@media screen and (min-width: $small-screen) {
 		margin: 8em 0;
 	}
-}
 
-.section-title {
-	color: $primary-color;
-	text-align: center;
-	font-size: 2.4em;
-}
+	// Global Section Icon
+	.section-icon {
+		width: 3.5em;
+		margin: 0 auto;
+		display: block;
+	}
 
-.callout {
-	font-size: 1.3em;
-	color: #464646;
-	text-align: center;
-	margin: 0 auto 2em;
-	max-width: 27em;
-}
+	.section-title {
+		color: $primary-color;
+		text-align: center;
+		font-size: 2.4em;
+	}
 
-// Global Section Icon
-.section-icon {
-	width: 3.5em;
-	margin: 0 auto;
-	display: block;
-}
+	.callout {
+		font-size: 1.3em;
+		color: $body-font-color;
+		text-align: center;
+		margin: 0 auto 2em;
+		max-width: 27em;
 
-.check-icon {
-	width: 40px;
-	display: block;
-	position: relative;
-	margin-bottom: 2.5em;
-	top: -20px;
-	left: 50%;
-	@include transform(translateX(-50%));
+		@media screen and (min-width: $small-screen) {
+			margin-bottom: 4em;
+		}
+	}
 }
 
 
 
 // Small group inside Feature Section
 .feature-content {
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 	text-align: center;
 
 	.feature-icon {
-		//max-width: 4em;
-		max-height: 3em;
+		max-height: 4em;
+		margin-bottom: 1.5em;
 	}
-}
 
-.small-title {
-	color: $body-font-color;
-	font-size: 1.2em;
-	font-weight: 900;
+	.small-title {
+		color: $body-font-color;
+		font-size: 1.2em;
 
-	& + p {
-		font-size: .9em;
-		color: $body-font-color-alt;
-		max-width: 20em;
-		margin: 0 auto;
+		& + p {
+			font-size: .9em;
+			color: $body-font-color-alt;
+			max-width: 20em;
+			margin: 0 auto;
+		}
 	}
 }
 
@@ -87,10 +80,35 @@
 .stack-section {
 
 	.stack-feature {
+		margin: 3em 0;
+
+		@media screen and (max-width: $small-screen) {
+			text-align: center;
+		}
 
 		img {
 			//float: left;
+			max-width: 15em;
+			margin-bottom: 2em;
 		}
+
+		h3 {
+			font-size: 1.7em;
+		}
+
+		p {
+			color: $body-font-color-alt;
+			max-width: 22em;
+
+			@media screen and (max-width: $small-screen) {
+				margin: 0 auto $paragraph-margin-bottom;
+			}
+		}
+	}
+
+	hr {
+		max-width: 8em;
+		margin: 0 auto;
 	}
 }
 
@@ -108,7 +126,7 @@
 
 // Footer
 .site-footer {
-	background-color: #d8492e;
+	//background-color: #d8492e;
 	overflow: hidden;
 	padding-top: 4em;
 

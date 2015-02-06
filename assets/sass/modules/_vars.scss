@@ -24,9 +24,11 @@ $orange-color: #ff8a33;
 $yellow-color: #f4f2ca;
 $light-green-color: #beecd9;
 
+$light-gray-color: #e9eceb;
+
 $primary-color: $orange-color;
 $secondary-color: $light-green-color;
-$neutral-color: #f9f7f1;
+$neutral-color: #fff;
 
 $alert-color: #c60f13;
 $success-color: #5da423;
@@ -133,9 +135,9 @@ $paragraph-text-rendering: optimizeLegibility;
 // <hr> element
 // -------------------------------------//
 
-$hr-border-width: 3px;
+$hr-border-width: 1px;
 $hr-border-style: solid;
-$hr-border-color: #e6e7e8;
+$hr-border-color: $light-gray-color;
 $hr-margin: 2em 0;
 
 // <code> tags

@@ -1,0 +1,19 @@
+/*
+  * 
+  * Buttons
+  *
+  */
+
+%pill-button {
+	background-color: $primary-color;
+	color: $neutral-color;
+	text-align: center;
+	padding: .7em;
+	width: auto;
+	@include border-radius($global-rounded);
+	@include transition(all .1s linear);
+
+	&:hover {
+		background-color: darken($primary-color, 10%);
+	}
+}

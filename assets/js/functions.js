@@ -10,24 +10,6 @@
 			$(this).siblings('.email-signup-submit').addClass("show"); // add class to submit button
 			$(this).attr('placeholder','Email Address...'); // change text in input field
 		});
-
-		// faux tooltip menu bold button
-		$('.bold-button').click(function() {
-			$('.bold-button').toggleClass("active");
-			$('.example-highlight').toggleClass("bold");			
-		});
-
-		// faux tooltip menu italic button
-		$('.italic-button').click(function() {
-			$('.italic-button').toggleClass("active");
-			$('.example-highlight').toggleClass("italic");
-		});
-
-		// faux tooltip menu underline button
-		$('.underline-button').click(function() {
-			$('.underline-button').toggleClass("active");
-			$('.example-highlight').toggleClass("underline");
-		});
 	
 	});
 
