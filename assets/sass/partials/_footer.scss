@@ -9,14 +9,10 @@
 .site-footer {
 	background-color: darken($primary-color, 3%);
 	overflow: hidden;
-	padding-top: 4em;
+	//padding-top: 4em;
 
 	.footer-widget  {
 		margin-bottom: 2em;
-	}
-
-	.wai-logo {
-		max-width: 130px;
 	}
 
 	p {

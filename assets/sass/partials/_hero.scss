@@ -6,10 +6,10 @@
 
 #hero {
 	text-align: center;
-	padding: 5em 0;
+	padding: 3em 0 0;
 
 	@media screen and (min-width: $small-screen) {
-		padding: 7em 0;
+		padding: 3em 0 0;
 	}
 }
 
@@ -25,4 +25,10 @@
 	margin: 0 auto 2em;
 	max-width: 25em;
 	width: 80%;
+}
+
+.icon-course-platform {
+	max-width: 46em;
+	width: 90%;
+	margin-top: 2em;
 }
