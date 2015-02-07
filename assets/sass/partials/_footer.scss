@@ -1,0 +1,60 @@
+/*
+  * 
+  * Footer
+  *
+  */
+
+
+// Footer
+.site-footer {
+	background-color: darken($primary-color, 3%);
+	overflow: hidden;
+	padding-top: 4em;
+
+	.footer-widget  {
+		margin-bottom: 2em;
+	}
+
+	.wai-logo {
+		max-width: 130px;
+	}
+
+	p {
+		//color: $yellow-color;
+		font-size: .9em;
+	}
+
+	h4 {
+		//color: $yellow-color;
+		font-size: 1em;
+		font-weight: 900;
+	}
+
+	a {
+		//color: $yellow-color;
+	}
+
+	.copyright {
+		text-align: center;
+		//color: darken(#d8492e, 10%);
+		margin: 2em 0;
+		font-size: 1.2em;
+		font-weight: bolder;
+	}
+}
+
+.social-icon {
+	margin: 0 .3em .5em;
+	display: block;
+	float: right;
+
+	&:hover {
+		opacity: .8;
+	}
+
+	img {
+		width: 50px;
+	}
+
+}
+

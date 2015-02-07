@@ -4,10 +4,6 @@
   *
   */
 
-#sign-up {
-	background-color: $primary-color;	
-}
-
 // Section Container
 .feature-section {
 	margin: 5em 0;
@@ -43,7 +39,6 @@
 }
 
 
-
 // Small group inside Feature Section
 .feature-content {
 	margin-bottom: 3em;
@@ -68,32 +63,60 @@
 }
 
 
-
+// Sign up section. Overwrite styles from base email signup
 #sign-up {
 	padding: 4em 0;
 	text-align: center;
+	background-color: $primary-color;
+
+	.title {
+		color: $header-font-color;
+	}
+
+	.tagline {
+		color: $body-font-color;
+	}
+
+	.email-signup-button {
+		background-color: $header-font-color;
+
+		&:hover {
+			background-color: darken($header-font-color, 5%);
+		}
+
+		&.active,
+		&:focus {
+			background-color: white;
+			color: $body-font-color;
+
+			&::-webkit-input-placeholder {
+				color: $body-font-color-alt;
+			}
+		}
+	}
 }
 
 
-
-
+// Who can teach section
 .stack-section {
 
 	.stack-feature {
+		text-align: center;
 		margin: 3em 0;
 
-		@media screen and (max-width: $small-screen) {
-			text-align: center;
+		@media screen and (min-width: $small-screen) {
+			text-align: left;
+			margin: 5em 0;
 		}
 
 		img {
-			//float: left;
 			max-width: 15em;
 			margin-bottom: 2em;
 		}
 
 		h3 {
 			font-size: 1.7em;
+			margin-top: 0;
 		}
 
 		p {
@@ -111,69 +134,3 @@
 		margin: 0 auto;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Footer
-.site-footer {
-	//background-color: #d8492e;
-	overflow: hidden;
-	padding-top: 4em;
-
-	.footer-widget  {
-		margin-bottom: 2em;
-	}
-
-	.wai-logo {
-		max-width: 130px;
-	}
-
-	p {
-		color: $yellow-color;
-		font-size: .9em;
-	}
-
-	h4 {
-		color: $yellow-color;
-		font-size: 1em;
-		font-weight: 900;
-	}
-
-	a {
-		color: $yellow-color;
-	}
-
-	.copyright {
-		text-align: center;
-		color: darken(#d8492e, 10%);
-		margin: 2em 0;
-		font-size: 1.2em;
-		font-weight: bolder;
-	}
-}
-
-.social-icon {
-	margin: 0 .3em .5em;
-	display: block;
-	float: right;
-
-	&:hover {
-		opacity: .8;
-	}
-
-	img {
-		width: 50px;
-	}
-
-}
-
