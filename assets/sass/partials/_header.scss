@@ -28,7 +28,8 @@
 }
 
 .site-logo {
-	width: 4em;
+	//width: 4em;
+	width: 3.5em;
 	display: inline-block;
 	margin: 1em;
 
@@ -50,7 +51,8 @@
 
 		@media screen and (min-width: $small-screen) {
 			margin: 0;
-			line-height: 60px;
+			//line-height: 60px;
+			line-height: 4.7em;
 		}
 	}
 }
