@@ -102,6 +102,7 @@ p {
 	margin-bottom: $paragraph-margin-bottom;
 	text-rendering: $paragraph-text-rendering;
 	line-height: $base-line-height;
+	font-weight: 100;
 
 	&.lead { 
 		font-size: 140%;
