@@ -32,3 +32,52 @@
 	width: 90%;
 	margin-top: 2em;
 }
+
+
+
+
+.hero-feature-image {
+	max-width: 46em;
+	width: 90%;
+	margin: 2em auto 0;
+	position: relative;
+	@include transition(.15s all ease-in-out);
+
+	.hero-checklist {
+		//max-width: 12em;
+		position: absolute;
+		left: 0;
+		top: 1.5em;
+		max-width: 30%;
+		@include transition(.15s all ease-in-out);
+	}
+
+	.hero-people {
+		position: absolute;
+		right: 0;
+		top: 1em;
+		max-width: 30%;
+		@include transition(.15s all ease-in-out);
+	}
+
+	.hero-browser {
+		width: 70%;
+		@include transition(.15s all ease-in-out);
+	}
+
+	&:hover {
+		
+	}
+}
+
+#hero:hover {
+	.hero-checklist {
+		left: -5%;
+		top: 2em;
+	}
+
+	.hero-people {
+		right: -5%;
+		top: 2em;
+	}
+}

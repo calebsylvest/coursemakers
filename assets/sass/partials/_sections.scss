@@ -49,6 +49,11 @@
 		margin-bottom: 1.5em;
 	}
 
+	.icon-authority {
+		max-height: 3.3em;
+		margin-top: .2em;
+	}
+
 	.small-title {
 		color: $body-font-color;
 		font-size: 1.2em;
@@ -59,6 +64,21 @@
 			max-width: 20em;
 			margin: 0 auto;
 		}
+	}
+}
+
+// FAQ Section
+
+.faq-questions {
+
+	h3 {
+		font-size: 1em;
+		font-weight: bold;
+		color: $primary-color;
+	}
+
+	p {
+		margin-bottom: 3em;
 	}
 }
 
