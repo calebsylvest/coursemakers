@@ -1,10 +1,18 @@
+/*
+  * CourseMakers.com
+  * Package, Promote, and Sell Courses Online
+  * 
+  * by Caleb Sylvest & John Fischelli
+  */
+
+
 /* Import Partials!
 -------------------------------------------------------------------------------*/
 
 @import "compass/css3";
 
 // browser reset
-@import "partials/_normalize";
+@import "vendor/_normalize";
 
 // modules
 @import "modules/_vars";
