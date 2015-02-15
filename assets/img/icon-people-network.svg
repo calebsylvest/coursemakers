@@ -2,225 +2,112 @@
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 324 219" enable-background="new 0 0 324 219" xml:space="preserve">
+	 viewBox="0 0 279.4 177" enable-background="new 0 0 279.4 177" xml:space="preserve">
 <g>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="62" y1="89" x2="70" y2="117"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="39.7" y1="126.8" x2="58" y2="132"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="44" y1="90" x2="31" y2="103.9"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="293" y1="110" x2="272" y2="135"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="176" y1="29" x2="198.3" y2="38"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="174.2" y1="113.2" x2="184" y2="123"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="175" y1="85" x2="204.5" y2="60.5"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="214" y1="65" x2="204" y2="116"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="218" y1="142" x2="244" y2="147"/>
-	
-		<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="105" y1="169" x2="90" y2="151"/>
 	<g>
+		<path fill="#FFFFFF" stroke="#16C493" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" d="M18.5,74.3
+			C9.4,74.3,2,81.7,2,90.8s7.4,16.5,16.5,16.5S35,99.9,35,90.8S27.6,74.3,18.5,74.3z"/>
+		<path fill="#16C493" d="M11.9,88.8c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2s2-0.9,2-2C13.9,89.7,13,88.8,11.9,88.8z"/>
+		<path fill="#16C493" d="M23.8,88.8c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2s2-0.9,2-2C25.8,89.7,24.9,88.8,23.8,88.8z"/>
+		<path fill="#16C493" d="M21.7,88.1c0.1-1,0.2-1.9,0.1-2.9C21.4,77.3,15.6,71,8.1,69.7C8,70.7,8,71.6,8,72.6
+			C8.4,80.5,14.2,86.8,21.7,88.1z"/>
+		<path fill="#16C493" d="M16.5,74.3c2,6.9,8.3,11.9,15.8,11.9C30.3,79.3,24,74.3,16.5,74.3z"/>
+		<path fill="#16C493" d="M15.8,74.7C8.7,75.3,2.5,80.5,1,87.8C8.2,87.2,14.3,82,15.8,74.7z"/>
+		<path fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M14.1,96.4c0.6,2,2.3,3.3,4.4,3.3s3.8-1.3,4.4-3.3H14.1z"/>
+	</g>
+	<g>
+		<g>
+			<path fill="#FFFFFF" stroke="#16C493" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" d="M123.3,21.9
+				c-9.1,0-16.5,7.4-16.5,16.5s7.4,16.5,16.5,16.5s16.5-7.4,16.5-16.5S132.4,21.9,123.3,21.9z"/>
+			<g>
+				<path fill="#16C493" d="M117.3,36.4c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S118.4,36.4,117.3,36.4z"/>
+				<path fill="#16C493" d="M129.2,36.4c-1.1,0-2,0.9-2,2s0.9,2,2,2c1.1,0,2-0.9,2-2S130.3,36.4,129.2,36.4z"/>
+			</g>
+			<path fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M119.2,43.4c0.6,2,2.3,3.3,4.4,3.3c2.1,0,3.8-1.3,4.4-3.3H119.2z"/>
+			<g>
+				<path fill="#16C493" d="M108.1,31.4h8l1-5l2,5h19c0,0-4.5-10-14-10S108.1,29.4,108.1,31.4z"/>
+				<path fill="#16C493" d="M104.8,36.8l-2.3,17.5h4.7l0.7-3.6l0.5,3.6h11l-4.8-1.8C114.5,52.6,104.8,41.7,104.8,36.8z"/>
+				<path fill="#16C493" d="M141.1,36.8l2.3,17.5h-4.2l-0.2-2.6l-0.5,2.6h-7.8l0.7-1.8C131.5,52.6,141.1,41.7,141.1,36.8z"/>
+			</g>
+		</g>
+		<g>
+			<path fill="#16C493" d="M123,112.9c-11.3,0-20.5,9.2-20.5,20.5s9.2,20.5,20.5,20.5s20.5-9.2,20.5-20.5S134.3,112.9,123,112.9z"/>
+			<path fill="#FFFFFF" stroke="#16C493" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" d="M123,122.9
+				c-9.1,0-16.5,7.4-16.5,16.5s7.4,16.5,16.5,16.5s16.5-7.4,16.5-16.5S132.1,122.9,123,122.9z"/>
+			<g>
+				<path fill="#16C493" d="M117,137.4c-1.1,0-2,0.9-2,2s0.9,2,2,2c1.1,0,2-0.9,2-2S118.1,137.4,117,137.4z"/>
+				<path fill="#16C493" d="M128.9,137.4c-1.1,0-2,0.9-2,2s0.9,2,2,2c1.1,0,2-0.9,2-2S130,137.4,128.9,137.4z"/>
+			</g>
+			<path fill="#16C493" d="M107,132.4h31c0,0-5.9-12.4-14.4-12.4S107,132.4,107,132.4z"/>
+			
+				<polyline fill="none" stroke="#16C493" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+				118,146.1 123.1,145.1 128,146.1 			"/>
+		</g>
+	</g>
+	<g>
+		
+			<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="42.1" y1="79.9" x2="94.6" y2="57"/>
+		
+			<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="42.1" y1="98" x2="94.6" y2="121"/>
+	</g>
+	<g>
+		<g>
+			<path fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M204.4,17.5c0-2.8,2.2-5,5-5c2.8,0,5,2.2,5,5"/>
+			
+				<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="209.4" cy="9.5" r="3"/>
+		</g>
+		
+			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="209.4" cy="12" r="11"/>
+	</g>
+	<g>
+		<g>
+			<path fill="none" stroke="#16C493" stroke-width="2" stroke-miterlimit="10" d="M204.4,71.5c0-2.8,2.2-5,5-5c2.8,0,5,2.2,5,5"/>
+			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-miterlimit="10" cx="209.4" cy="63.5" r="3"/>
+		</g>
+		<circle fill="none" stroke="#16C493" stroke-width="2" stroke-miterlimit="10" cx="209.4" cy="66" r="11"/>
+	</g>
+	<g>
+		
+			<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="150.8" y1="32.7" x2="191.9" y2="14.8"/>
+		
+			<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="150.8" y1="46.8" x2="191.9" y2="64.8"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					
+						<path fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+						M204.4,116.5c0-2.8,2.2-5,5-5c2.8,0,5,2.2,5,5"/>
+					
+						<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="209.4" cy="108.5" r="3"/>
+				</g>
+				
+					<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="209.4" cy="111" r="11"/>
+			</g>
+			<g>
+				<g>
+					<path fill="none" stroke="#16C493" stroke-width="2" stroke-miterlimit="10" d="M204.4,170.5c0-2.8,2.2-5,5-5c2.8,0,5,2.2,5,5"
+						/>
+					<circle fill="none" stroke="#16C493" stroke-width="2" stroke-miterlimit="10" cx="209.4" cy="162.5" r="3"/>
+				</g>
+				<circle fill="none" stroke="#16C493" stroke-width="2" stroke-miterlimit="10" cx="209.4" cy="165" r="11"/>
+			</g>
+		</g>
 		<g>
 			
-				<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="96" y1="128" x2="97.4" y2="127.4"/>
+				<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="150.8" y1="130.7" x2="191.9" y2="112.8"/>
 			
-				<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.1355,4.1807" x1="101.2" y1="125.8" x2="139.7" y2="109.4"/>
-			
-				<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="141.6" y1="108.6" x2="143" y2="108"/>
-		</g>
-	</g>
-	<circle fill="none" stroke="#FF8A33" stroke-width="2" stroke-miterlimit="10" cx="135" cy="63" r="4"/>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="303.5" cy="93.5" r="19.5"/>
-		<circle fill="none" stroke="#FF8A33" stroke-width="2" stroke-miterlimit="10" cx="303.5" cy="93.5" r="13.5"/>
-		<circle fill="#16C493" cx="303.5" cy="88.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_1_" cx="303.5" cy="93.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_2_)" fill="#16C493" cx="303.5" cy="99.5" r="8.5"/>
+				<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="150.8" y1="144.8" x2="191.9" y2="162.8"/>
 		</g>
 	</g>
 	<g>
 		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="199.5" cy="135.5" r="19.5"/>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="199.5" cy="135.5" r="13.5"/>
-		<circle fill="#16C493" cx="199.5" cy="130.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_3_" cx="199.5" cy="135.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_4_">
-				<use xlink:href="#SVGID_3_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_4_)" fill="#16C493" cx="199.5" cy="141.5" r="8.5"/>
-		</g>
+			<line fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,4" x1="224.8" y1="18.8" x2="265.9" y2="36.8"/>
 	</g>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="257.5" cy="148.5" r="19.5"/>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="257.5" cy="148.5" r="13.5"/>
-		<circle fill="#16C493" cx="257.5" cy="143.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_5_" cx="257.5" cy="148.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_6_">
-				<use xlink:href="#SVGID_5_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_6_)" fill="#16C493" cx="257.5" cy="154.5" r="8.5"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="160.5" cy="98.5" r="19.5"/>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="160.5" cy="98.5" r="13.5"/>
-		<circle fill="#16C493" cx="160.5" cy="93.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_7_" cx="160.5" cy="98.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_8_">
-				<use xlink:href="#SVGID_7_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_8_)" fill="#16C493" cx="160.5" cy="104.5" r="8.5"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="77.5" cy="135.5" r="19.5"/>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="77.5" cy="135.5" r="13.5"/>
-		<circle fill="#16C493" cx="77.5" cy="130.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_9_" cx="77.5" cy="135.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_10_">
-				<use xlink:href="#SVGID_9_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_10_)" fill="#16C493" cx="77.5" cy="141.5" r="8.5"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="115.5" cy="178.5" r="13.5"/>
-		<circle fill="#16C493" cx="115.5" cy="173.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_11_" cx="115.5" cy="178.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_12_">
-				<use xlink:href="#SVGID_11_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_12_)" fill="#16C493" cx="115.5" cy="184.5" r="8.5"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="164.5" cy="21.5" r="13.5"/>
-		<circle fill="#16C493" cx="164.5" cy="16.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_13_" cx="164.5" cy="21.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_14_">
-				<use xlink:href="#SVGID_13_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_14_)" fill="#16C493" cx="164.5" cy="27.5" r="8.5"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="57.5" cy="75.5" r="19.5"/>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="57.5" cy="75.5" r="13.5"/>
-		<circle fill="#16C493" cx="57.5" cy="70.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_15_" cx="57.5" cy="75.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_16_">
-				<use xlink:href="#SVGID_15_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_16_)" fill="#16C493" cx="57.5" cy="81.5" r="8.5"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="101.5" cy="28.5" r="27.5"/>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="101.5" cy="28.5" r="19"/>
-		<circle fill="#16C493" cx="101.5" cy="21.4" r="6.3"/>
-		<g>
-			<defs>
-				<circle id="SVGID_17_" cx="101.5" cy="28.5" r="14.8"/>
-			</defs>
-			<clipPath id="SVGID_18_">
-				<use xlink:href="#SVGID_17_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_18_)" fill="#16C493" cx="101.5" cy="37" r="12"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="171.5" cy="190.5" r="27.5"/>
-		
-			<circle fill="none" stroke="#BEECD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="171.5" cy="190.5" r="19"/>
-		<circle fill="#16C493" cx="171.5" cy="183.4" r="6.3"/>
-		<g>
-			<defs>
-				<circle id="SVGID_19_" cx="171.5" cy="190.5" r="14.8"/>
-			</defs>
-			<clipPath id="SVGID_20_">
-				<use xlink:href="#SVGID_19_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_20_)" fill="#16C493" cx="171.5" cy="199" r="12"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="216.5" cy="45.5" r="19.5"/>
-		<circle fill="#16C493" cx="216.5" cy="40.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_21_" cx="216.5" cy="45.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_22_">
-				<use xlink:href="#SVGID_21_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_22_)" fill="#16C493" cx="216.5" cy="51.5" r="8.5"/>
-		</g>
-	</g>
-	<g>
-		
-			<circle fill="none" stroke="#16C493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="20.5" cy="121.5" r="19.5"/>
-		<circle fill="#16C493" cx="20.5" cy="116.5" r="4.5"/>
-		<g>
-			<defs>
-				<circle id="SVGID_23_" cx="20.5" cy="121.5" r="10.5"/>
-			</defs>
-			<clipPath id="SVGID_24_">
-				<use xlink:href="#SVGID_23_"  overflow="visible"/>
-			</clipPath>
-			<circle clip-path="url(#SVGID_24_)" fill="#16C493" cx="20.5" cy="127.5" r="8.5"/>
-		</g>
-	</g>
-	<circle fill="#BEECD9" cx="104.5" cy="77.5" r="5.5"/>
-	<circle fill="#BEECD9" cx="222.5" cy="178.5" r="5.5"/>
-	<circle fill="#BEECD9" cx="250.5" cy="83.5" r="5.5"/>
-	<circle fill="#BEECD9" cx="43.5" cy="162.5" r="5.5"/>
+	<circle fill="none" stroke="#FF8A33" stroke-width="2" stroke-miterlimit="10" cx="274.4" cy="40.4" r="4"/>
 </g>
 </svg>
