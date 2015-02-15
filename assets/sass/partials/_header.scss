@@ -59,10 +59,10 @@
 
 // nav group
 .site-nav {
-	//float: right;
 
 	@media screen and (min-width: $small-screen) {
 		float: right;
+		margin: 0 1em;
 	}
 
 	ul {
