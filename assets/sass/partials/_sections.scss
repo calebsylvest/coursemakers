@@ -87,7 +87,6 @@
 #sign-up {
 	padding: 4em 0;
 	text-align: center;
-	//background-color: $primary-color;
 	background-color: $light-green-color;
 
 	.title {
@@ -99,20 +98,21 @@
 	}
 
 	.email-signup-button {
-		background-color: $header-font-color;
-
-		&:hover {
-			background-color: darken($header-font-color, 5%);
+		background-color: $secondary-color;
+		border-color: $dark-green-color;
+		
+		&::-webkit-input-placeholder {
+			color: lighten($body-font-color, 20%);
 		}
 
-		&.active,
+		&:hover {
+			border-color: darken($dark-green-color, 10%);
+		}
+
+		//&.active,
 		&:focus {
 			background-color: white;
 			color: $body-font-color;
-
-			&::-webkit-input-placeholder {
-				color: $body-font-color-alt;
-			}
 		}
 	}
 }
