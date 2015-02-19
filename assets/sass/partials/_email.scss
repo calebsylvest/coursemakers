@@ -24,7 +24,7 @@
 	line-height: 2.5em;
 	padding: 0 1em;
 	border: 2px solid $primary-color;
-	cursor: pointer;
+	//cursor: pointer;
 	outline: none;
 	@include border-radius($global-rounded);
 	@include transition(all .1s linear);
