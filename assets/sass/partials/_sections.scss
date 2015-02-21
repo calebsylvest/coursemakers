@@ -98,21 +98,27 @@
 	}
 
 	.email-signup-button {
-		background-color: $secondary-color;
-		border-color: $dark-green-color;
+		background-color: $header-font-color;
+		//background-color: $secondary-color;
+		//border-color: $dark-green-color;
 		
-		&::-webkit-input-placeholder {
-			color: lighten($body-font-color, 20%);
-		}
+		//&::-webkit-input-placeholder {
+		//	color: lighten($body-font-color, 20%);
+		//}
 
 		&:hover {
-			border-color: darken($dark-green-color, 10%);
+			//border-color: darken($dark-green-color, 10%);
+			background-color: lighten($header-font-color, 5%);
 		}
 
-		//&.active,
+		&.active,
 		&:focus {
 			background-color: white;
 			color: $body-font-color;
+
+			&::-webkit-input-placeholder {
+				color: $body-font-color-alt;
+			}
 		}
 	}
 }

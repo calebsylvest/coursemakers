@@ -19,25 +19,49 @@
 
 // email button
 .email-signup-button {
-	width: 16em;
-	height: 2.5em;
-	line-height: 2.5em;
-	padding: 0 1em;
-	border: 2px solid $primary-color;
-	//cursor: pointer;
+	width: 10em;
+	border: none;
+	cursor: pointer;
 	outline: none;
-	@include border-radius($global-rounded);
-	@include transition(all .1s linear);
+	@extend %pill-button;
+
+
+	// for full form style
+	//width: 16em;
+	//height: 2.5em;
+	//line-height: 2.5em;
+	//padding: 0 1em;
+	//border: 2px solid $primary-color;
+	//@include border-radius($global-rounded);
+	//@include transition(all .1s linear);
+
+	&.active {
+		width: 18em;
+		outline: none;
+		text-align: left;
+		cursor: inherit;
+	}
 
 	&:hover {
 		border-color: darken($primary-color, 10%);
 	}
 
 	&:focus {
-		border-color: $dark-green-color;
-		background-color: lighten($secondary-color, 10%);
+		//border-color: $dark-green-color;
+		//background-color: lighten($secondary-color, 10%);
 	}
+
+	&::-webkit-input-placeholder {
+	 	color: $neutral-color;
+		
+		//&:focus {
+			//border-color: $dark-green-color;
+			//background-color: lighten($secondary-color, 10%);
+		//}
+	}	
 }
+
+
 
 // Arrow submit button
 .email-signup-submit {
@@ -53,8 +77,16 @@
 	display: inline-block;
 	@include transition(all .2s linear);
 
+	display: none; // hide until input field is active
+
 	&:hover {
 		opacity: .33;
+	}
+
+	// show the submit button when input is clicked
+	&.show {
+		display: inline-block;
+		background-size: 33px;
 	}
 }
 
