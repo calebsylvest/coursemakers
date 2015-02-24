@@ -90,3 +90,51 @@
 		}
 	}
 }
+
+.share-links {
+	@media screen and (min-width: $small-screen) {
+		float: right;
+		margin: 0 1em;
+	}
+
+	.share-text {
+		display: block;
+		font-size: .8em;
+		letter-spacing: .07em;
+		text-transform: uppercase;
+		margin: .5em 1em;
+
+		@media screen and (min-width: $small-screen) {
+			display: inline-block;
+		}
+	}
+}
+
+.share-button {
+	width: 2.5em;
+	height: 2.5em;
+	display: inline-block;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 .1em;
+	@include border-radius($global-rounded);
+
+	@media screen and (min-width: $small-screen) {
+		margin: 1em .2em;
+		float: right;
+	}
+
+	&:hover {
+		opacity: .8;
+	}
+}
+
+.twitter {
+	background: #55ACEE url(../img/icon-twitter.svg) no-repeat center center;
+	background-size: 1.2em 1.2em;
+}
+
+.facebook {
+	background: #3B5898 url(../img/icon-facebook.svg) no-repeat center center;
+	background-size: 1.2em 1.2em;
+}
