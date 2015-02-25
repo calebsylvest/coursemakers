@@ -117,6 +117,7 @@
 	text-indent: -9999px;
 	overflow: hidden;
 	margin: 0 .1em;
+	-webkit-backface-visibility: hidden;
 	@include border-radius($global-rounded);
 
 	@media screen and (min-width: $small-screen) {
