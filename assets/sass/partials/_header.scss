@@ -6,9 +6,7 @@
 
 // header container
 .site-header {
-	//padding: 1em;
 	text-align: center;
-	//background-color: #fbfbfb;
 
 	@media screen and (min-width: $small-screen) {
 		height: 60px;
@@ -28,7 +26,6 @@
 }
 
 .site-logo {
-	//width: 4em;
 	width: 3.5em;
 	display: inline-block;
 	margin: 1em;
@@ -51,7 +48,6 @@
 
 		@media screen and (min-width: $small-screen) {
 			margin: 0;
-			//line-height: 60px;
 			line-height: 4.7em;
 		}
 	}
@@ -72,16 +68,24 @@
 
 		li {
 			display: inline-block;
+			text-transform: uppercase;
+			font-size: .8em;
+			letter-spacing: $base-letter-spacing;
+			padding: 0 .5em;
+			vertical-align: middle;
+
+			@media screen and (min-width: $small-screen) {
+				float: left;
+			}
+
+			&:last-child,
+			&:nth-last-child(2) {
+				padding: 0;
+			}
 
 			a {
-				font-size: .8em;
 				color: $header-font-color;
-				text-transform: uppercase;
-				letter-spacing: $base-letter-spacing;
-				margin: 0 1em;
 				display: inline-block;
-				height: 60px;
-				line-height: 60px;
 
 				&:hover {
 					color: $primary-color;
